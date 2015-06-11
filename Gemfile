@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'simple_form'
+gem 'factory_girl_rails', '~> 4.0'
 
 
 

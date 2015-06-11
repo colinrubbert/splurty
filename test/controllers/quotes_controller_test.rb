@@ -3,7 +3,7 @@ require 'test_helper'
 class QuotesControllerTest < ActionController::TestCase
 
    test "quote show page" do
-     quote = Quote.create(:author => 'Marcus Aurelius', :saying => 'The impediment to action advances action. What stands in the way becomes the way.')
+     quote = FactoryGirl.create(:quote)
      get :show, :id => quote.id
      assert_response :success
    end
